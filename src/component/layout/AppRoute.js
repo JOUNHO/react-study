@@ -6,6 +6,7 @@ import Ch03PropsAndState from './../view/Ch03PropsAndState/index';
 import Ch04LifeCycle from './../view/Ch04LifeCycle/index';
 import Ch05Style from "../view/Ch05Style";
 import Ch06GlobalState from "../view/Ch06GlobalState";
+import Ch07PerformanceImprovement from "../view/Ch07PerformanceImprovement";
 
 
 
@@ -19,6 +20,7 @@ function AppRoute(){
       <Route path="/ch04/*" element={<Ch04LifeCycle/>}/>
       <Route path="/ch05/*" element={<Ch05Style/>}/>
       <Route path="/ch06/*" element={<Ch06GlobalState/>}/>
+      <Route path="/ch07/*" element={<Ch07PerformanceImprovement/>}/>
     </Routes>
   );
 }
